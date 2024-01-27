@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <title>Eternity IA</title>
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="./assets/css/index.css">
+    </head>
+    <body class="antialiased">
+        <nav>
+            <ul class="ul-nav-1">
+                <li class="logo">
+                    <img src="./assets/img/logo.png" alt="" width="100px" height="100px">
+                </li>
+                <a href='/'><li class="ul-nav-1-li">Página Inicial</li></a>
+                <a href='./pages/servicos.html'><li class="ul-nav-1-li">Serviços</li></a>
+                <a href='./pages/sobre-nos.html'><li class="ul-nav-1-li">Sobre nós</li></a>
+                <a href='./pages/contate-nos.html'><li class="ul-nav-1-li">Contate-nos</li></a>
+            </ul>
+            <ul class="ul-nav-2">
+                <a href="https://www.linkedin.com/in/eternity-ia-b053892aa/"><li class="ul-nav-2-li"><img src="./assets/img/icons8-linkedin-50.png" alt="Linkedin"></li></a>
+                <li class="ul-nav-2-li" onclick="enviarEmail()"><img src="./assets/img/icons8-mail-50.png" alt="E-mail"></li>
+                <a href="https://twitter.com/EternityIa"><li class="ul-nav-2-li"><img src="./assets/img/icons8-twitter-50.png" alt="Twitter"></li></a>
+            </ul>
+        </nav>
+        <div class="fade-effect">
+            <header>
+                <div id="header-section">
+                    <div class="header-section-1">
+                        <h1>Bem-Vindo(a) a Eternity IA</h1>
+                        <p>A Eternity IA se destaca como uma pioneira em inovação, sobressaindo-se no desenvolvimento de inteligência artificial especializada na automação da geração de textos e apresentações. Suas avançadas técnicas de processamento de linguagem natural proporcionam soluções eficazes e personalizadas, ajustando-se aos diversos estilos de escrita conforme as demandas específicas. Firme em seu compromisso com a transparência e ética, a IA transforma radicalmente a criação de conteúdo escrito e visual, consolidando-se como líder na vanguarda da inovação no vasto domínio da inteligência artificial.</p>
+                    </div>
+                </div>
+                <div class="header-section-3">
+                    <a href='./pages/sobre-nos.html'><button>Sobre-nós</button></a>
+                    <button onclick="enviarEmail()">Contate-nos</button>
+                </div>
+            </header>
+        </div>
+        <div>
+            <main class="fadde-effect">
+                <div id="container-1">
+                    <div class="Suporte">
+                        <img src="./assets/img/icons8-support-100.png" alt="" width="80px">
+                        <p class="title-section">Suporte</p>
+                        <p>O suporte da IA é sensacional, disponível 24/7 para atender às  necessidades dos clientes a qualquer hora do dia. Uma equipe dedicada e ágil está pronta para fornecer assistência contínua, garantindo tranquilidade e eficiência em todos os momentos.</p>
+                    </div>
+                    <div class="Capacidade">
+                        <img src="./assets/img/icons8-box-100.png" alt="" width="45px">
+                        <p class="title-section">Capacidade</p>
+                        <p>A IA redefine a criatividade, gerando conteúdos escritos e apresentações com precisão e inovação excepcionais. Sua capacidade de criação impressiona, adaptando-se a contextos específicos e proporcionando resultados personalizados que elevam a experiência do usuário a novos patamares.</p>
+                    </div>
+                    <div class="Reembolso">
+                        <img src="./assets/img/icons8-refund-100.png" alt="" width="45px">
+                        <p class="title-section">Reembolso</p>
+                        <p>Nosso compromisso com sua satisfação é máximo: oferecemos um período de reembolso estendido de 7 dias. Sua confiança é invaluable para nós.</p>
+                    </div>
+                </div>
+                <div id="btn-saiba-mais">
+                    <a href="./pages/servicos.html"><button class="saiba-mais">Saiba mais</button></a>
+                </div>
+                <div id="container-2">
+                    <div class="section1-container-2">
+                        <p>A IA foi concebida com a visão de transformar a maneira como produzimos conteúdo escrito e visual. Seu propósito é capacitar indivíduos e organizações, oferecendo uma solução avançada de inteligência artificial para a criação automatizada de textos e apresentações. Com o intuito de otimizar a eficiência e a personalização, a IA utiliza algoritmos de processamento de linguagem natural de ponta, permitindo que seus usuários alcancem resultados excepcionais em diversas áreas, desde relatórios empresariais até materiais de marketing. A missão da IA é impulsionar a inovação e simplificar a produção de conteúdo, proporcionando ferramentas poderosas que atendem às crescentes demandas da era digital.</p>
+                    </div>
+                    <div id="conttainer-3">
+                        <a href='./pages/sobre-nos.html'><button>Saiba mais sobre nós</button></a>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <div id="container-4">
+                <p>Contate-nos para mais informações!</p>
+                <div class="nome-email">
+                    <div class="nome">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome1" name="nome1" required placeholder="Digite seu nome!">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email1" name="email1" required placeholder="Digite seu e-mail!">
+                    </div>
+                </div>
+                <div class="mensagem">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem1" name="mensagem1" rows="4" required placeholder="Digite sua mensagem!"></textarea>
+                </div>
+                <button onclick="validarFormulario()">Enviar</button>
+            </div>
+            <div class="contact">
+                <img src="./assets/img/logo.png" alt="" width="150px" height="150px">
+                <div>
+                    <p>Eternitycloudcontato@hotmail.com</p>
+                    <p>© Todos os direitos reservados</p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="./assets/js/index.js"></script>
+    </body>
+</html>
